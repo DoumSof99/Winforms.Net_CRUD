@@ -239,6 +239,7 @@
             Controls.Add(grvPerson);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)grvPerson).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();

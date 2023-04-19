@@ -10,7 +10,7 @@ namespace CRUD_Operations_with_EF.Services
 {
     public class Repository
     {
-        public List<Person> Read(string firstName, string lastName, int age)
+        public List<Person> Read()
         {
             using (CRUD_DB db = new())
             {
