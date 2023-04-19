@@ -58,7 +58,7 @@ namespace CRUD_Operations_with_EF.Services
 
                 if (idPerson != null)
                 {
-                    db.Remove(id);
+                    db.Remove(idPerson);
                     db.SaveChanges();
 
                 }

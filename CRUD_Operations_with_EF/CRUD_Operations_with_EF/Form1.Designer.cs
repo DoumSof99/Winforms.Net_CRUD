@@ -125,6 +125,7 @@
             // ctrlIdTxt
             // 
             ctrlIdTxt.AutoSize = true;
+            ctrlIdTxt.Enabled = false;
             ctrlIdTxt.Location = new Point(135, 29);
             ctrlIdTxt.Name = "ctrlIdTxt";
             ctrlIdTxt.Size = new Size(0, 15);
@@ -196,6 +197,7 @@
             ctrlSave.TabIndex = 5;
             ctrlSave.Text = "Save";
             ctrlSave.UseVisualStyleBackColor = false;
+            ctrlSave.Click += ctrlSave_Click;
             // 
             // ctrlAdd
             // 
@@ -206,6 +208,7 @@
             ctrlAdd.TabIndex = 2;
             ctrlAdd.Text = "Add";
             ctrlAdd.UseVisualStyleBackColor = false;
+            ctrlAdd.Click += ctrlAdd_Click;
             // 
             // ctrlEdit
             // 
@@ -216,6 +219,7 @@
             ctrlEdit.TabIndex = 3;
             ctrlEdit.Text = "Edit";
             ctrlEdit.UseVisualStyleBackColor = false;
+            ctrlEdit.Click += ctrlEdit_Click;
             // 
             // ctrlDelete
             // 
@@ -226,6 +230,7 @@
             ctrlDelete.TabIndex = 4;
             ctrlDelete.Text = "Delete";
             ctrlDelete.UseVisualStyleBackColor = false;
+            ctrlDelete.Click += ctrlDelete_Click;
             // 
             // Form1
             // 
