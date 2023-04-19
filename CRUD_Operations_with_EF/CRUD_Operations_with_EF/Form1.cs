@@ -6,5 +6,10 @@ namespace CRUD_Operations_with_EF
         {
             InitializeComponent();
         }
+
+        private void grvPerson_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
